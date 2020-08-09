@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage"
+    android:background="@mipmap/img">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="172dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="177dp"
+        android:background="#304099"
+        android:text="TEAM"
+        android:textColor="#FFFF00"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="176dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="73dp"
+        android:background="#304099"
+        android:text="EXIT"
+        android:textColor="#FFFF00"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+</RelativeLayout>
